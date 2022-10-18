@@ -14,7 +14,7 @@ def open_connection(connection):
 
     connection.row_factory = sqlite3.Row
     return connection
-def execute_sql():
+# def execute_sql():
 
 
 @app.route('/')
